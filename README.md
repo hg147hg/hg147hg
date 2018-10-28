@@ -165,4 +165,61 @@ untracked files의 파일들을 git가 추적하도록 하거나
 
 > git rebase -i *커밋범위*
 
-대화형모드로 커밋 순서를 변경하거나 합
+대화형모드로 커밋 순서를 변경하거나 합침
+
+> git clone *저장소주소* *폴더명*
+
+원격저장소를 복제하여 저장소를 생성
+
+> git fetch
+
+원격저장소의 변경사항 가져와서 원격브랜치를 갱신
+
+> git pull
+
+원격저장소의 변경사항을 가져와서 지역브랙치에 합치는 작업을 한꺼번에 함
+
+> git remote add *이름* *저장소주소*
+
+새로운 원격 저장소를 추가
+
+> git remote
+
+추가한 원격저장소의 목록을 확인
+
+> git remote show *이름*
+
+해당 원격저장소의 정보를 봄
+
+> git remote rm *이름*
+
+원격저장소를 제거
+
+> git submodule
+
+연관된 하위모듈을 확인
+
+> git submodule add *저장소주소* *서브모듈경로*
+
+새로운 하위모듈을 해당경로에 추가
+
+> git submodule init *서브모듈경로*
+
+서브모듈을 초기화
+
+> git submodule update *서브모듈경로*
+
+서브모듈의 변경사항을 적용
+
+> git mergetool
+
+설정에 merge.tool의 값에 있는 머지툴을 찾아서 실행
+
+> git gc
+
+저장소의 로그를 최적화-로그가 변경되지는 않고 저장하는 방식만 최적화
+* --aggressive : 더 자세하게 최적화
+
+> git rev-parse --show-toplevel
+
+git 저장소내에서 입력하면 루트디렉토리를 알려줌
