@@ -39,15 +39,15 @@ _Italic_
 >	내용
 
 # git 명령어
-1. git --version
+> git --version
 
    현재 git의 버전을 확인
    
-2. git init
+> git init
 
    현재 디렉토리에 git 저장소를 생성
    
-3. git add 파일명
+> git add 파일명
 
    ('파일명' ex/ hello.txt)
 
@@ -57,19 +57,19 @@ _Italic_
    * -i : 대화형모드가 시작되며, 파일의 일부분만 선택해서 스테이징 가능
    * -p : 대화형모드 없이 바로 패치모드 사용
    
-4. git commit -m "커밋메시지"
+> git commit -m "커밋메시지"
 
    스테이징 영역에 올라가 있는 파일들을 커밋
    
    * -m : 커밋메시지를 주는 옵션으로, 여러 줄의 커밋메시지를 쓸 경우 -m을 여러개 사용
    * -a : 스테이징에 올리는 작업과 커밋을 동시에 실행
    
-5. git commit -C HEAD -a --amend
+> git commit -C HEAD -a --amend
 
    지정한 커밋의 로그메시지를 다시 사용하여 기존커밋을 수정
    * -c : 기존메시지를 수정할 수 있는 편집기를 실행
    
-6. git status
+> git status
  
     커밋되지 않은 변경사항 조회
     
