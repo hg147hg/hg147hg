@@ -136,7 +136,7 @@ untracked files의 파일들을 git가 추적하도록 하거나
 커밋로그 보여줌
 * -1 or -2 or … : 출력할 커밋로그의 갯수를 지정
 * --pretty=oneline : 한줄로 간단히 보여줌
-* --pretty=format : "%h %s"와 같이 형식 지정
+* --pretty=format : %h, %s와 같이 형식 지정
 * -p : 변경된 내용 같이 보여줌
 * --graph : 브랜치 트리 보여줌
 
